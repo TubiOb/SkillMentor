@@ -179,6 +179,41 @@ nav button {
 }
 
 
+/*  */
+
+
+/* MAIN */
+
+.main {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    /* border: 2px solid red; */
+    position: relative;
+    top: 5rem;
+    overflow: hidden;
+    height: 70vh;
+}
+
+.intro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 5rem;
+    height: 100%;
+}
+
+.main image {
+    flex: 1 1 40rem;
+    border: 2px solid green;
+}
+
+.intro image img {
+    width: 100%;
+}
+
+
 /* .log__sign li a:hover {} */
 
 
