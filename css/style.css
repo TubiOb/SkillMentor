@@ -85,10 +85,11 @@ a {
     color: var(--bg-color);
 }
 
-img {
+
+/* img {
     max-width: 100%;
     height: auto;
-}
+} */
 
 table {
     border-collapse: collapse;
@@ -106,18 +107,24 @@ input::placeholder {
 
 .btn {
     display: inline-block;
-    background-color: var(--bg-color);
-    color: var(--text-color);
+    background: var(--bg-color);
     padding: 1em 2em;
     border: 1px solid transparent;
     font-weight: 500;
     transition: var(--transition);
 }
 
+.btn a {
+    color: var(--background-color);
+}
+
 .btn:hover {
     background: transparent;
-    color: var(--bg-color);
     border-color: var(--bg-color);
+}
+
+.btn:hover a {
+    color: var(--bg-color);
 }
 
 
@@ -127,12 +134,13 @@ input::placeholder {
 /* NAV */
 
 nav {
-    background: transparent;
+    background: var(--background-color);
     width: 100vw;
     height: 5rem;
     position: fixed;
     top: 0;
     z-index: 11;
+    box-shadow: 0 0 10px rgba(149, 148, 148, 0.2);
 }
 
 .nav__container {
@@ -185,32 +193,38 @@ nav button {
 /* MAIN */
 
 .main {
-    display: flex;
+    /* display: flex; */
     align-items: center;
-    gap: 1.5rem;
-    flex-wrap: wrap;
+    /* gap: 1.5rem; */
+    /* flex-wrap: wrap; */
     /* border: 2px solid red; */
     position: relative;
     top: 5rem;
     overflow: hidden;
-    height: 70vh;
+    height: 80vh;
+    margin-bottom: 5rem;
 }
 
 .intro {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    gap: 5rem;
+    gap: 10rem;
     height: 100%;
+    /* border: 1px solid white; */
+    padding: 2em 5em;
 }
 
-.main image {
+.image {
     flex: 1 1 40rem;
-    border: 2px solid green;
 }
 
-.intro image img {
-    width: 100%;
+.intro .main_content h1 {
+    font-size: var(--large-font);
+}
+
+.intro .main_content p {
+    margin: 1rem 0 2.4rem;
 }
 
 
@@ -316,5 +330,27 @@ nav button {
     .log__sign li a:hover {
         background-color: var(--secondary-dark-color);
         color: var(--bg-color);
+    }
+    /*  */
+    /* MAIN */
+    .main {
+        top: 5rem;
+        height: auto;
+    }
+    .intro {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        gap: 5rem;
+        height: 100%;
+    }
+    .image {
+        flex: 1 1 40rem;
+    }
+    .intro .main_content h1 {
+        font-size: var(--large-font);
+    }
+    .intro .main_content p {
+        margin: 1rem 0 2.4rem;
     }
 }
