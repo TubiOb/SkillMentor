@@ -373,5 +373,7 @@ nav button {
         height: 100%;
         display: grid;
         place-items: center;
+        border: none;
+        outline: none;
     }
 }
