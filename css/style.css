@@ -358,4 +358,12 @@ nav button {
         gap: 0;
         justify-content: space-around;
     }
+    .log__sign li {
+        width: 100%;
+        height: 5.8rem;
+        animation: animateNavItems 1s linear forwards;
+        transform-origin: top center;
+        opacity: 0;
+        transform: translateY(-100%);
+    }
 }
