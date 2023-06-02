@@ -349,7 +349,7 @@ nav button {
 @media (max-width: 498px) {
     .log__sign {
         display: flex;
-        top: 3rem;
+        top: 34rem;
         right: 5%;
         height: fit-content;
         width: 18rem;
