@@ -365,6 +365,7 @@ nav button {
         transform-origin: top center;
         opacity: 0;
         transform: translateY(-100%);
+        background-color: var(--background-color);
     }
     .log__sign li a {
         background-color: transparent;
