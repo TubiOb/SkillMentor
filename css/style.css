@@ -361,14 +361,23 @@ nav button {
     .log__sign li {
         width: 100%;
         height: 5.8rem;
-        animation: animateNavItems 1s linear forwards;
+        animation: animatelogItems 1s linear forwards;
         transform-origin: top center;
         opacity: 0;
         transform: translateY(-100%);
         background-color: var(--header-color);
         animation-delay: 1.7s;
     }
-    .log__sign li a {
+    @keyframes animatelogItems {
+        0% {
+            transform: translateY(-100%);
+        }
+        100% {
+            transform: translateY(0%);
+            opacity: 1;
+        }
+    }
+    .nav__ .log__sign li a {
         background-color: transparent;
         /* box-shadow: -4rem 6rem 10rem rgba(0, 0, 0, .6); */
         width: 100%;
