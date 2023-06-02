@@ -348,7 +348,7 @@ nav button {
 
 @media (max-width: 498px) {
     .log__sign {
-        display: flex;
+        display: none;
         top: 34rem;
         right: 5%;
         height: fit-content;
@@ -366,6 +366,7 @@ nav button {
         opacity: 0;
         transform: translateY(-100%);
         background-color: var(--header-color);
+        animation-delay: 1.7s;
     }
     .log__sign li a {
         background-color: transparent;
