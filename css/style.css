@@ -354,7 +354,7 @@ nav button {
         height: fit-content;
         width: 18rem;
         flex-direction: row;
-        border: 2px solid red;
+        /* border: 2px solid red; */
         gap: 0;
         justify-content: space-around;
     }
