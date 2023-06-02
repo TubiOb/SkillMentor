@@ -367,7 +367,6 @@ nav button {
         opacity: 0;
         transform: translateY(-100%);
         background-color: var(--header-color);
-        animation-delay: 1.7s;
     }
     @keyframes animatelogItems {
         0% {
@@ -376,6 +375,7 @@ nav button {
         100% {
             transform: translateY(0%);
             opacity: 1;
+            animation-delay: 1.7s;
         }
     }
     .nav__ .log__sign li a {
