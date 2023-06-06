@@ -197,7 +197,7 @@ nav button {
     align-items: center;
     /* gap: 1.5rem; */
     /* flex-wrap: wrap; */
-    /* border: 2px solid red; */
+    border: 2px solid red;
     position: relative;
     top: 5rem;
     overflow: hidden;
@@ -226,6 +226,27 @@ nav button {
 
 .intro .main_content p {
     margin: 1rem 0 2.4rem;
+}
+
+
+/*  */
+
+
+/* PARTNERED UNIVERSITIES */
+
+.partneringUni {
+    align-items: center;
+    position: relative;
+    top: 5rem;
+    overflow: hidden;
+    height: auto;
+    margin-bottom: 5rem;
+    border: 2px solid red;
+}
+
+.Unis {
+    height: 190px;
+    border: 1px solid firebrick;
 }
 
 
