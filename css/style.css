@@ -241,13 +241,56 @@ nav button {
     overflow: hidden;
     height: auto;
     margin-bottom: 5rem;
-    border: 2px solid red;
+    border: 2px solid rgb(162, 255, 0);
 }
 
+.partneringUni h1 {font-size: var(--h2-font-size);}
+
 .Unis {
-    height: 190px;
-    border: 1px solid firebrick;
+    width: 95%;
+    height: 230px;
+    /* border: 1px solid whitesmoke; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
 }
+
+.swiper-slide {
+    /* border: 1px solid darkred;
+    width: 250px;
+    height: 210px;
+    padding: 3px;
+    position: relative; */
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+}
+
+.logo {
+    width: 210px;
+    height: 200px;
+    padding: 5px;
+    position: relative;
+    border: 2px solid snow;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo  img {
+    width: 100%;
+    height: 100%;
+}
+
+/* .swiper-slide img {
+    width: 100%;
+    height: 90%;
+    opacity: .65;
+    object-fit: cover;
+    border: 1px solid antiquewhite;
+} */
 
 
 /* .log__sign li a:hover {} */
