@@ -23,8 +23,8 @@ closeBtn.addEventListener('click', closeNav);
 var swiper = new Swiper('.swiper', {
       slidesPerView: 5,
       spaceBetween: 20,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
+      // pagination: {
+      //   el: ".swiper-pagination",
+      //   clickable: true,
+      // },
     });

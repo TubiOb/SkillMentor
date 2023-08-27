@@ -197,7 +197,7 @@ nav button {
     align-items: center;
     /* gap: 1.5rem; */
     /* flex-wrap: wrap; */
-    border: 2px solid red;
+    /* border: 2px solid red; */
     position: relative;
     top: 5rem;
     overflow: hidden;
@@ -241,19 +241,24 @@ nav button {
     overflow: hidden;
     height: auto;
     margin-bottom: 5rem;
-    border: 2px solid rgb(162, 255, 0);
+    /* border: 2px solid rgb(162, 255, 0); */
 }
 
-.partneringUni h1 {font-size: var(--h2-font-size);}
+.partneringUni h1 {
+    font-size: var(--p-font);
+    font-weight: 400;
+    margin-bottom: 5px;
+}
 
 .Unis {
-    width: 95%;
+    width: 100%;
     height: 230px;
     /* border: 1px solid whitesmoke; */
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 5px;
+    background-color: #fff;
 }
 
 .swiper-slide {
@@ -270,11 +275,11 @@ nav button {
 }
 
 .logo {
-    width: 210px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     padding: 5px;
     position: relative;
-    border: 2px solid snow;
+    /* border: 2px solid snow; */
     justify-content: center;
     align-items: center;
 }
@@ -409,6 +414,18 @@ nav button {
     .intro .main_content h1 {
         font-size: var(--medium-font);
     }
+    /*  */
+    /* PARTNERING UNIS */
+    .Unis {
+        height: 180px;
+    }
+    .swiper-slide {
+        padding: 2px;
+    }
+
+    .logo {
+        padding: 0px;
+    }
 }
 
 @media (max-width: 498px) {
@@ -452,5 +469,16 @@ nav button {
         place-items: center;
         border: none;
         outline: none;
+    }
+    /*  */
+    /* PARTNERING UNIS */
+    .Unis {
+        height: 150px;
+    }
+    .swiper-slide {
+        padding: 2px;
+    }
+    .logo {
+        padding: 0px;
     }
 }
